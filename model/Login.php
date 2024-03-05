@@ -1,4 +1,9 @@
 <?php
+
+namespace user; 
+
+use PDO;
+
 class Login{
     private $database;
     private $tablen='login';

@@ -1,9 +1,11 @@
 <?php
+
 session_start();
-// Include necessary files
-require_once '../config/Database.php';
-require_once '../model/Data.php';
-require_once '../model/Login.php';
+
+require_once '../vendor/autoload.php';
+
+use user\Login;
+use data\Data;
 
 // Create database connection
 $database = new Database;

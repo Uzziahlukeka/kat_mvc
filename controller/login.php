@@ -1,7 +1,7 @@
 <?php
+require_once '../vendor/autoload.php';
+use user\Login;
 session_start();
-require_once '../config/Database.php';
-require_once '../model/Login.php';
 
 $data = new Database;
 $db = $data->connect();

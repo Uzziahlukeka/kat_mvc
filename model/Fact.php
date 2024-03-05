@@ -1,4 +1,10 @@
 <?php
+
+namespace fact;
+// good for classes 
+
+use PDO;
+
 class Fact{
     private $database;
     private $tablen='country_facts';

@@ -1,4 +1,8 @@
 <?php
+
+namespace data;
+use PDO;
+
 class Data{
     private $database;
     private $tablen='countries';

@@ -1,6 +1,8 @@
 <?php
-require_once '../config/Database.php';
-require_once '../model/Fact.php';
+require_once '../vendor/autoload.php';
+
+use fact\Fact;
+
 $database = new Database;
 $db = $database->connect();
 $cnt = new Fact($db);
